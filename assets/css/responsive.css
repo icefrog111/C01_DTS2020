@@ -91,6 +91,25 @@
   .header-list {
     display: none;
   }
+  .headline-content {
+    align-self: center;
+    font-size: 0.8em;
+  }
+
+  .top {
+    font-size: 0.5 em;
+  }
+
+  .top-content img {
+    width: 200%;
+    height: auto;
+    margin-bottom: 2em;
+    align-self: center;
+  }
+  .top-content {
+    flex-direction: column;
+    align-self: center;
+  }
 
   .name-title h3, .name-title h4 {
     align-self: center;
@@ -110,6 +129,11 @@
     height: 32px;
     margin-bottom: 2em;
     align-self: center;
+  }
+
+  .footer-content {
+    align-self: center;font-size: 1em;
+    font-size: 1.5em;
   }
 
 }
