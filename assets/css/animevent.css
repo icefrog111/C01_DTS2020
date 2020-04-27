@@ -1,0 +1,20 @@
+.header-list a:hover{
+  text-decoration: none;
+  color: black;
+  transition: ease-in 0.5s
+}
+
+.icon:hover, .footer-icon:hover{
+  opacity: 1;
+  transition: ease-in-out 0.5s
+}
+
+.footer-menu:hover{
+  opacity: 0.5;
+  transition: ease-in-out 0.5s
+}
+
+.footer-menu a li:hover{
+  opacity: 1;
+  transition: ease-in-out 0.5s
+}

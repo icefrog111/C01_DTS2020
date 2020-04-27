@@ -1,0 +1,67 @@
+/*header start*/
+header {
+   font-size: 1em;
+   height: 3.5em;
+   padding: 3vh 3vw 3vh 3vw;
+   text-transform: uppercase;
+   font-weight: bolder;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list li{
+  float: left;
+  padding-left: 1em;
+  color: gray;
+}
+
+.header-list a {text-decoration: none; color: gray}
+/*header end*/
+
+
+/*footer start*/
+footer {
+  background-color: #5D6D7E;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  overflow: hidden;
+  color: white;
+  padding: 4em 6em 6em 6em;
+}
+
+.footer-logo {
+  float: left;
+  margin-right: 4em;
+}
+.footer-menu {
+  float: left;
+  opacity: 0.2;
+}
+
+.footer-menu li, .footer-menu a {
+  font-weight: normal;
+  margin-bottom: 1em;
+  color: white;
+  text-transform: capitalize;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-icon {
+  display: block;
+  float: left;
+  padding: 1vh 2em 0 0;
+  opacity: 0.5;
+}
+
+/*footer end*/
+

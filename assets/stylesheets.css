@@ -1,0 +1,12 @@
+@import url("css/reset.css");
+@import url("css/headerfooter.css");
+@import url("css/main.css");
+@import url("css/animevent.css");
+@import url("css/responsive.css");
+
+h1,h2,h3,h4,header,footer,p,span {
+	font-family: "Montserrat";
+}
+
+* { box-sizing: border-box; text-decoration: none;}
+body {background-color: #F6F8F9;}

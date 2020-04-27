@@ -1,0 +1,94 @@
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+
+  .header-list li {
+    padding-left: 3em;
+  }
+
+  .top-content {
+    flex-direction: column;
+  }
+
+  .top-content img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 2em;
+    align-self: center;
+  }
+
+  .person {
+    box-shadow: 0;
+    flex-direction: column;
+  }
+
+  .profile-photo {
+    align-self: center;
+    margin: 2em auto;
+    width: 100%;
+    height: auto;
+    transform: scale(220%);
+  }
+
+  .name-title h3, .name-title h4 {
+    align-self: center;
+    font-size: 2em;
+  }
+
+  .description {
+    padding-left: 1em;
+  }
+
+  .description p{
+    line-height: 2em;
+    font-size: 1em;
+  }
+
+  .social-media-wrap p {
+    display: none;
+  }
+
+  .social-media-icons {
+    align-self: stretch;
+    justify-content: center;
+  }
+
+  .icon {
+    height: 64px;
+    margin-bottom: 2em;
+    align-self: center;
+  }
+
+  .footer-logo,.footer-menu {
+    display: none;
+  }
+
+  .footer-right {
+    float: left;
+    display: block;
+    text-align:  center;
+  }
+
+  .footer-content {
+    display: block;
+    font-size: 2em;
+  }
+
+  .footer-icon {
+    display: none;
+  }
+
+}
+
+@media (max-width: 678px) {
+   
+  .header-logo {
+    display: block;
+    float: center;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+
+}

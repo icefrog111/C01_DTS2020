@@ -1,0 +1,152 @@
+/*headline and top start*/
+.headline {
+	background-image: url("../img/hero.png");
+	background-size: cover;
+	height: 20em;
+}
+
+.headline-content {
+  position: inherit;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.headline-content h1 {
+  font-size: 3em;
+  font-weight: bolder;
+  text-transform: normal;
+  color: white;
+  line-height: 1em;
+  margin: 1em;
+}
+
+.headline-content p {
+  color: white;
+  font-weight: bold;
+}
+
+.top {
+  padding: 2em auto;
+}
+
+.top h2, .main-content h2 {
+  font-weight: bolder;
+  font-size: 2em;
+  margin: 1em auto;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.top-content {
+  margin: auto 5em;
+  display: flex;
+}
+
+.top-content img {
+  display: block;
+  width: 40%;
+  height: auto;
+}
+
+.top-content p {
+  position: : inherit;
+  margin-left: 2em;
+  line-height: 2em;
+}
+/*headline and top end*/
+
+.person {
+  background-color: white;
+  border-radius: 20px;
+  opacity: 0.9;
+  box-shadow: 0px 3px 6px black;
+  display: flex;
+  flex-direction: row;
+  margin: 0 5em 3em 5em;
+  position: relative;
+  max-width: 100%;
+  height: auto
+}
+
+.profile-photo {
+  height: auto;
+  margin-right: 25px;
+  max-width: 40%;
+	border-radius: 20px 0 0 20px;
+}
+
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px 10px 0px;
+  justify-content: center;
+}
+
+
+.name-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-title h3 {
+  font-weight: bold;
+  font-size: 2em;
+  text-transform: uppercase;
+  line-height: 1em;
+  margin: 0 0 2vh 0;
+}
+
+.name-title h4 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1em;
+  padding-right: 1em;
+}
+
+.description p {
+  font-size: 1em;
+  line-height: 5vh;
+  width: 100%;
+}
+
+.readmore {
+  color: blue;
+  margin-bottom: 1em;
+}
+
+.social-media-wrap {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+
+.social-media-wrap p {
+  font-weight: bold;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: auto;
+}
+
+.icon {
+  margin: 1vh 1em 0 0;
+  height: 30px;
+  opacity: 0.5;
+  align-self: center;
+}
