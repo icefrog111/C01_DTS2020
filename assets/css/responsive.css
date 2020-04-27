@@ -82,6 +82,7 @@
 }
 
 @media (max-width: 678px) {
+
   .header-logo {
     display: block;
     float: center;
@@ -89,6 +90,26 @@
 
   .header-list {
     display: none;
+  }
+
+  .name-title h3, .name-title h4 {
+    align-self: center;
+    font-size: 1em;
+  }
+
+  .description {
+    padding-left: 0.5em;
+  }
+
+  .description p {
+    line-height: 1em;
+    font-size: 0.5em;
+  }
+
+  .icon {
+    height: 32px;
+    margin-bottom: 2em;
+    align-self: center;
   }
 
 }
