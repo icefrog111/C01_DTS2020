@@ -1,6 +1,5 @@
 /* Untuk Tablet */
 @media (max-width: 1000px) {
-
   .header-list li {
     padding-left: 3em;
   }
@@ -38,11 +37,11 @@
     padding-left: 1em;
   }
 
-  .description p{
+  .description p {
     line-height: 2em;
     font-size: 1em;
   }
-  
+
   .social-media-wrap {
     padding-left: 1em;
   }
@@ -62,14 +61,14 @@
     align-self: center;
   }
 
-  .footer-logo,.footer-menu {
+  .footer-logo, .footer-menu {
     display: none;
   }
 
   .footer-right {
     float: left;
     display: block;
-    text-align:  center;
+    text-align: center;
   }
 
   .footer-content {
@@ -80,11 +79,9 @@
   .footer-icon {
     display: none;
   }
-
 }
 
 @media (max-width: 678px) {
-   
   .header-logo {
     display: block;
     float: center;
@@ -94,5 +91,69 @@
     display: none;
   }
 
+  .top-content img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 2em;
+    align-self: center;
+  }
 
+  .person {
+    box-shadow: 0;
+    flex-direction: column;
+  }
+
+  .profile-photo {
+    align-self: center;
+    margin: 2em auto;
+    width: 80%;
+    height: auto;
+    transform: scale(176%);
+  }
+
+  .name-title h3, .name-title h4 {
+    align-self: center;
+    font-size: 2em;
+  }
+
+  .description {
+    padding-left: 1em;
+  }
+
+  .description p {
+    line-height: 2em;
+    font-size: 1em;
+  }
+
+  .social-media-wrap {
+    padding-left: 1em;
+  }
+
+  .social-media-wrap p {
+    display: none;
+  }
+
+  .social-media-icons {
+    align-self: stretch;
+    justify-content: center;
+  }
+
+  .footer-logo, .footer-menu {
+    display: none;
+  }
+
+  .footer-right {
+    float: left;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-content {
+    display: block;
+    font-size: 2em;
+  }
+
+  .footer-icon {
+    display: none;
+  }
 }
